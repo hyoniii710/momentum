@@ -3,7 +3,8 @@
 :kr: 추후 사용자 위치에 맞는 지역 코로나 확진자 수 추가 계획입니다.
 <br>
 <br>
-![노마드코더 크롬앱_김효은](https://user-images.githubusercontent.com/89337508/174262908-5e6f4b3e-2849-4a23-a904-75e103e15dd9.png)
+![스크린샷 2022-06-23 오후 5 43 49](https://user-images.githubusercontent.com/89337508/175264969-e55ee46d-91ca-4ca3-9d5c-74c16774f2b8.png)
+
 <br>
 ## js 구성
 js폴더는 6개의 파일로 구성되어있습니다.
