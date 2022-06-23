@@ -21,8 +21,12 @@ body {
   text-align: center;
 }
 img {
-  min-height: 100%;
-  min-width: 2500px;
+  height: 100%;
+  width: 2500px;
+}
+.weatherIcon {
+  align-items: center;
+  justify-content: center;
 }
 
 .hidden {
@@ -90,9 +94,22 @@ li {
   margin-bottom: 20px;
   font-size: 20px;
   color: rgb(28, 38, 38);
-  font-weight: 200;
+  font-weight: 400;
 }
-#weather {
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather span {
   color: darkslategrey;
-  padding-bottom: 20px;
+  font-size: 30px;
+  margin-left: 10px;
+}
+.weather__icon {
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
 }

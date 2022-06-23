@@ -12,7 +12,14 @@
     <!-- 접속 url http://localhost:5500/index.html -->
     <div class="container">
       <h2 id="clock"></h2>
-      <div id="weather">
+      <!-- 날씨 영역 -->
+      <div class="weather">
+        <img
+          width="30"
+          class="weather__icon"
+          src="${data.icon}"
+          alt="weatherIcon Error"
+        />
         <span></span>
         <span></span>
       </div>
@@ -51,6 +58,7 @@
       <script src="js/background.js"></script>
       <script src="js/todo.js"></script>
       <script src="js/weather.js"></script>
+      <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     </div>
   </body>
 </html>

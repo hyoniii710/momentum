@@ -11,10 +11,13 @@ function onOk(position) {
   fetch(url)
     .then((Response) => Response.json())
     .then((data) => {
-      const weather = document.querySelector("#weather span:first-child");
-      const city = document.querySelector("#weather span:last-child");
+      const iconSelect = document.querySelector(".weather .weather__icon");
+      const icon = data.weather[0].main;
+      const weather = document.querySelector(".weather span:nth-child(2)");
+      const city = document.querySelector(".weather span:nth-child(3)");
       weather.innerText = `${data.weather[0].main} / ${data.main.temp}`;
       city.innerText = data.name;
+      iconSelect.setAttribute("src", `./img/icons/${icon}.png`);
     });
   // fetch -> response -> json ()
 }
