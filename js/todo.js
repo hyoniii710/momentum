@@ -30,7 +30,7 @@ function createTodo(NewTodo) {
   const button = document.createElement("button");
   button.innerText = "❌";
   button.addEventListener("click", deleteTodo);
-
+  // like 고민..
   //li에 span 자식태그 추가
   li.appendChild(span);
   li.appendChild(button);
