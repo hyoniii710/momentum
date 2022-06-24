@@ -1,6 +1,7 @@
 # 나만의 크롬 앱
 :seedling: 노마드코더 강의를 참고하여 만든 나만의 크롬 입니다. <br>
-:kr: 추후 사용자 위치에 맞는 지역 코로나 확진자 수 추가 계획입니다.
+:kr: 추후 사용자 위치에 맞는 지역 코로나 확진자 수 추가 계획입니다.<br>
+https://comfy-panda-eb1330.netlify.app/
 <br>
 <br>
 ![스크린샷 2022-06-24 오후 2 44 25](https://user-images.githubusercontent.com/89337508/175470425-fc4a5c1a-5908-43cb-93cc-c17e9659c758.png)
