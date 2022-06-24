@@ -30,6 +30,40 @@ function createTodo(NewTodo) {
   const button = document.createElement("button");
   button.innerText = "❌";
   button.addEventListener("click", deleteTodo);
+
+  // like
+  const like = document.createElement("span"); //span 태그 생성
+  // like안에 아이콘 넣기 위해 i태그 생성
+  const likeIcon = document.createElement("i");
+  //like 에 스타일 클래스 리스트 추가
+  like.classList.add("like");
+  // likeicon에 클래스 리스트 추가
+  likeIcon.classList.add("material-icons");
+  likeIcon.innerText = "favorite_border";
+
+  like.appendChild(likeIcon);
+
+  like.addEventListener("click", (e) => {
+    const target = e.target;
+    const liketext =
+      target.innerText === "favorite" ? "favorite_border" : "favorite";
+    target.innerText = liketext;
+    console.log(liketext);
+  });
+
+  // if문 사용
+  // like.addEventListener("click", (e) => {
+  //   const target = e.target;
+  //   if (target.innerText === "favorite") {
+  //     target.innerText = "favorite_border";
+  //   } else {
+  //     target.innerText = "favorite";
+  //   }
+  // });
+
+  li.appendChild(like);
+  // like 끝
+
   //li에 span 자식태그 추가
   li.appendChild(span);
   li.appendChild(button);

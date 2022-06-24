@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Momentum</title>
   </head>
   <body>
@@ -18,11 +21,12 @@
           width="30"
           class="weather__icon"
           src="${data.icon}"
-          alt="weatherIcon Error"
+          alt="날씨 생성 중..."
         />
         <span></span>
         <span></span>
       </div>
+      <!-- 로그인 영역 -->
       <div class="logFrm">
         <form id="login-form" class="hidden">
           <input
@@ -36,6 +40,8 @@
         </form>
       </div>
       <h1 id="greeting" class="hidden"></h1>
+
+      <!-- todo 영역 -->
       <div class="todoDiv">
         <form id="todo-form">
           <input
@@ -44,6 +50,7 @@
             placeholder="오늘 할 일을 적어주세요! "
             required
           />
+          <button class="todobtn" type="submit">등록</button>
         </form>
       </div>
       <ul id="todo-list"></ul>
