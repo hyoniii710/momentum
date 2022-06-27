@@ -8,7 +8,7 @@ https://comfy-panda-eb1330.netlify.app/
 
 
 <br>
-## js 구성<br>
+# js 구성<br>
 js폴더는 6개의 파일로 구성되어있습니다.<br>
 1) 배경화면 랜덤 background.js<br>
 2) 시간을 보여주는 clock.js<br>
